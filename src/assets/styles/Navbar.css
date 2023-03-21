@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Rubik+Iso&display=swap');
+
+.Navbar {
+    --cornerPad: 2em;
+    height: 9em;
+    width: 100vw;
+    background-color: rgb(230, 9, 9);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 2px 5px rgb(143, 143, 143);
+  }
+
+  .Navbar div:not(:nth-child(1)) {
+    font-size: 2.5em;
+    font-family: "Indie Flower";
+  }
+
+  /* title */
+  .Navbar-Title {
+    font-family: "Rubik Iso";
+    font-size: 1.8em;
+    padding-left: var(--cornerPad);
+    flex: 1
+  }
+
+  /* message */
+  .Navbar-Message {
+    font-size: 1.6em;
+  }
+  .Navbar-Message p {
+    width: 100%;
+    color: white;
+    margin-left: var(--cornerPad);
+  }
+
+  /* count */
+  .Navbar-Count {
+    flex: 1;
+    padding-right: var(--cornerPad);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+  }
+
+  .Navbar-Count div {
+    /* font-size: 2.4em; */
+    display: flex;
+    flex-direction: column;
+  }
+
+
+
+  /* @media only screen and (min-device-width: 1447px) {
+    .Navbar {
+      background-color: blue;
+    }
+    .Navbar-Message {
+      font-size: 1em;
+    }
+    .Navbar-Count {
+      font-size: 10px;
+    }
+  } */
